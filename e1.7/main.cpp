@@ -1,15 +1,10 @@
-//
-//  main.cpp
-//  e1.7
-//
-//  Created by Sergio campos on 5/19/19.
-//  Copyright © 2019 Sergio campos. All rights reserved.
-//
+// • E1.7Write a program that prints three items, such as the names of your three best friends or favorite movies, on three separate lines.
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    cout << "item 1\nitem 2\nitem 3" << endl;
 }
